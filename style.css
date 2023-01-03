@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: quicksand;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  background-color: white;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#navbar .navbar-container {
+  align-items: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 40px;
+}
+#navbar .navbar-container .navbar-logo {
+  letter-spacing: 4px;
+}
+#navbar .navbar-container .navbar-menu .list {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#navbar .navbar-container a:hover {
+  background-color: rgb(186, 161, 161);
+  list-style: none;
+}
+#navbar .navbar-container .navbar-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#navbar .navbar-container .navbar-icon button {
+  width: 120px;
+  cursor: pointer;
+}
+
+#banner {
+  width: 100%;
+}
+#banner .banner-box {
+  width: 100%;
+}
+#banner .banner-box .img-box {
+  max-width: 100%;
+  position: relative;
+  height: auto;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#banner .banner-box .img-box .img-1 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+#banner .banner-box .img-box .img-1 img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+#banner .banner-box .img-box .geri {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(147, 115, 115);
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+#banner .banner-box .img-box .geri :hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#banner .banner-box .img-box .ireli {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(147, 115, 115);
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  right: 0px;
+}
+#banner .banner-box .img-box .ireli :hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#banner .banner-box .banner-info {
+  width: 600px;
+  height: auto;
+  position: absolute;
+  right: 500px;
+  top: 210px;
+  text-align: center;
+}
+#banner .banner-box .banner-info h3 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+#banner .banner-box .banner-info button {
+  margin-top: 50px;
+}
+#banner .banner-box .button1 {
+  padding: 20px 20px;
+  width: 200px;
+  height: auto;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  border-radius: 0;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+#banner .banner-box .button1:hover {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
