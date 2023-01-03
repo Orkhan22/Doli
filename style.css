@@ -35,7 +35,7 @@ body {
   cursor: pointer;
 }
 #navbar .navbar-container a:hover {
-  background-color: rgb(186, 161, 161);
+  background-color: white;
   list-style: none;
 }
 #navbar .navbar-container .navbar-icon {

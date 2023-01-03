@@ -30,7 +30,16 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
 }
 
+const theme = localStorage.getItem("theme")
+
 function myFunction() {
     var element = document.body;
-    element.classList.toggle("dark-mode");
+    element.classList.toggle("dark-mode")
+    if(theme==="dark"){
+        localStorage.setItem("theme","light")
+
+    }else{
+        localStorage.setItem("theme","dark")
+
+    }
  }
